@@ -27,6 +27,7 @@ if __name__ == "__main__":
         cat()
     elif sys.argv[1] == 'cow':
         cow()
-    elif sys.argv[1] == 'pig':  
+    elif sys.argv[1] == 'pig':
+        pig()  
     else:
         default()
