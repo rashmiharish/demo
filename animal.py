@@ -17,6 +17,8 @@ def dog():
 def cow():
     print("Moo!")
 
+def pig():
+    print("Oink!")
 
 if __name__ == "__main__":
     if sys.argv[1] == 'dog':
@@ -25,5 +27,6 @@ if __name__ == "__main__":
         cat()
     elif sys.argv[1] == 'cow':
         cow()
+    elif sys.argv[1] == 'pig':  
     else:
         default()
